@@ -36,7 +36,7 @@ public class Task extends AsyncTask<Void,Void,String> {
             editor.putString("todayRecovered",object.getString("todayRecovered"));
             editor.putString("todayDeaths",object.getString("todayDeaths"));
             editor.putString("activeCases",object.getString("active"));
-            editor.putString("criticalCases",object.getString("criticalCases"));
+            editor.putString("criticalCases",object.getString("critical"));
             editor.putString("population",object.getString("population"));
             editor.putString("affectedCountries",object.getString("affectedCountries"));
             editor.commit();
